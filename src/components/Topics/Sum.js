@@ -1,5 +1,5 @@
-import React, { Component } from 'react'
-import ReactDOM from 'react-dom'
+import React, { Component } from 'react';
+
 
 //class component
 export class Sum extends Component {
@@ -25,8 +25,3 @@ export class Sum extends Component {
 // }
 
 export default Sum
-
-ReactDOM.render(
-    <Sum />,
-    document.getElementById('App')
-)

@@ -1,5 +1,4 @@
-import React, { Component } from 'react'
-import ReactDOM from 'react-dom'
+import React, { Component } from 'react';
 
 //class component
 export class FilterString extends Component {
@@ -26,7 +25,3 @@ export class FilterString extends Component {
 
 export default FilterString
 
-ReactDOM.render(
-    <FilterString />,
-    document.getElementById('App')
-)

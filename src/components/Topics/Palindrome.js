@@ -1,5 +1,4 @@
-import React, { Component } from 'react'
-import ReactDOM from 'react-dom'
+import React, { Component } from 'react';
 
 //Class component
 export class Palindrome extends Component {
@@ -26,7 +25,3 @@ export class Palindrome extends Component {
 
 export default Palindrome
 
-ReactDOM.render(
-    <Palindrome />,
-    document.getElementById('App')
-)
